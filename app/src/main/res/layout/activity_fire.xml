@@ -12,7 +12,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="56dp"
         android:gravity="center_horizontal"
-        android:text="Is It Life Threatening"
+        android:text="Is It Life Threatening?"
         android:textSize="40sp"
         android:textAllCaps="true"
         android:textColor="@android:color/black"
