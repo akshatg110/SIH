@@ -16,4 +16,7 @@ public class Screen3f extends AppCompatActivity {
     public void yes3(View view){
         startActivity(new Intent(Screen3f.this,Screen4.class));
     }
+    public void no3(View view){
+        startActivity(new Intent(Screen3f.this,FinalF.class));
+    }
 }

@@ -5,42 +5,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ui"
-    tools:context=".Screen3f">
+    tools:context=".Victim">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginTop="56dp"
         android:gravity="center_horizontal"
-        android:text="Can The Person Talk?"
-        android:textSize="40dp"
+        android:text="Is It Life Threatening?"
+        android:textSize="40sp"
         android:textAllCaps="true"
         android:textColor="@android:color/black"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:layout_marginStart="104dp"
         android:layout_marginLeft="104dp"
+        android:background="@drawable/custom_button"
+        android:onClick="vyes1"
         android:text="Yes"
         android:textSize="30sp"
-        android:onClick="yes3"
-        android:background="@drawable/custom_button"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304"  />
+        app:layout_constraintVertical_bias="0.304" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:layout_marginBottom="292dp"
-        android:text="No"
-        android:onClick="no3"
-        android:textSize="30sp"
         android:background="@drawable/custom_button"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:onClick="vno1"
+        android:text="No"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

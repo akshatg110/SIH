@@ -14,9 +14,9 @@ public class Screen5 extends AppCompatActivity {
         setContentView(R.layout.activity_screen5);
     }
     public void yes5(View view){
-        startActivity(new Intent(Screen5.this,FinalF.class));
+        startActivity(new Intent(Screen5.this,FinalF2.class));
     }
     public void no5(View view){
-        startActivity(new Intent(Screen5.this,FinalF.class));
+        startActivity(new Intent(Screen5.this,Screen6.class));
     }
 }

@@ -37,10 +37,12 @@
         android:layout_height="100dp"
         android:layout_marginBottom="292dp"
         android:text="No"
+        android:onClick="no2"
         android:textSize="30sp"
         android:background="@drawable/custom_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
 </androidx.constraintlayout.widget.ConstraintLayout>

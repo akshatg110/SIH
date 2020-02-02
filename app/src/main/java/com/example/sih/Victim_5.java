@@ -6,17 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Screen2f extends AppCompatActivity {
+public class Victim_5 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_screen2f);
+        setContentView(R.layout.activity_victim_5);
     }
-    public void yes2(View view){
-        startActivity(new Intent(Screen2f.this,Screen3f.class));
+    public void vyes5(View view){
+        startActivity(new Intent(Victim_5.this,FinalF.class));
     }
-    public void no2(View view){
-        startActivity(new Intent(Screen2f.this,FinalF.class));
+    public void no5(View view){
+        startActivity(new Intent(Victim_5.this,FinalF.class));
     }
 }

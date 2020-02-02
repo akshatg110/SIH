@@ -36,6 +36,7 @@
         android:layout_height="100dp"
         android:layout_marginBottom="292dp"
         android:text="No"
+        android:onClick="no4"
         android:textSize="30sp"
         android:background="@drawable/custom_button"
         app:layout_constraintBottom_toBottomOf="parent"

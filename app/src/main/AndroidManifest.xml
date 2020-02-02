@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Screen5"></activity>
+        <activity android:name=".Screen6"></activity>
+        <activity android:name=".FinalF2" />
+        <activity android:name=".Victim_5" />
+        <activity android:name=".Victim_4" />
+        <activity android:name=".Victim_3" />
+        <activity android:name=".Victim_2" />
+        <activity android:name=".Victim" />
+        <activity android:name=".Screen5" />
         <activity android:name=".FinalF" />
         <activity android:name=".Screen4" />
         <activity android:name=".Screen3f" />

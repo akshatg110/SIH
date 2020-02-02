@@ -22,4 +22,7 @@ public class MainActivity extends AppCompatActivity {
     public void Tsunami(View view){
         startActivity(new Intent(MainActivity.this,Tsunami.class));
     }
+
+    public void Victim(View view) {startActivity(new Intent(MainActivity.this,Victim.class));
+    }
 }
