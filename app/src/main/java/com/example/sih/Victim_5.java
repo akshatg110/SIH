@@ -16,7 +16,7 @@ public class Victim_5 extends AppCompatActivity {
     public void vyes5(View view){
         startActivity(new Intent(Victim_5.this,FinalF.class));
     }
-    public void no5(View view){
-        startActivity(new Intent(Victim_5.this,FinalF.class));
+    public void vno5(View view){
+        startActivity(new Intent(Victim_5.this,Victim_6.class));
     }
 }
