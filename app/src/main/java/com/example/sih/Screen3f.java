@@ -52,6 +52,8 @@ public class Screen3f extends AppCompatActivity {
                 // Toast.makeText(this, ""+result.get(0), Toast.LENGTH_SHORT).show();
                 if(result.get(0).equals("yes"))
                     startActivity(new Intent(Screen3f.this, Screen4.class));
+                if(result.get(0).equals("no"))
+                    startActivity(new Intent(Screen3f.this, FinalF.class));
             }
                 break;
         }

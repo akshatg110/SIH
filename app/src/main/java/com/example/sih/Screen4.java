@@ -52,6 +52,8 @@ public class Screen4 extends AppCompatActivity {
                 // Toast.makeText(this, ""+result.get(0), Toast.LENGTH_SHORT).show();
                 if(result.get(0).equals("yes"))
                     startActivity(new Intent(Screen4.this, FinalF.class));
+                if(result.get(0).equals("no"))
+                    startActivity(new Intent(Screen4.this, Screen5.class));
             }
                 break;
         }

@@ -21,7 +21,8 @@
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/TF_location"
         android:onClick="onClick"
-        android:text="Search" />
+        android:text="Search"
+        android:textSize="10dp"/>
 
 
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
@@ -45,6 +46,6 @@
         android:onClick="onClick"
         android:background="@drawable/button2"
         android:textSize="20sp"
-        android:text="Search Nearby Hospitals" />
+        android:hint="Search Nearby Hospitals" />
 
 </RelativeLayout>
