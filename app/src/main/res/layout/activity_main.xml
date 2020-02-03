@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/button12"
         android:layout_width="300dp"
         android:layout_height="80dp"
         android:layout_marginStart="72dp"
@@ -47,10 +48,12 @@
         android:layout_marginStart="46dp"
         android:layout_marginTop="140dp"
         android:layout_marginEnd="44dp"
+        android:layout_marginBottom="131dp"
         android:text="who are you?"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
