@@ -20,7 +20,7 @@ public class Screen4 extends AppCompatActivity {
         setContentView(R.layout.activity_screen4);
     }
     public void yes4(View view){
-        startActivity(new Intent(Screen4.this,FinalF.class));
+        startActivity(new Intent(Screen4.this,Video.class));
     }
     public void no4(View view){
         startActivity(new Intent(Screen4.this,Screen5.class));
@@ -51,7 +51,7 @@ public class Screen4 extends AppCompatActivity {
                 ArrayList<String> result =i.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                 // Toast.makeText(this, ""+result.get(0), Toast.LENGTH_SHORT).show();
                 if(result.get(0).equals("yes"))
-                    startActivity(new Intent(Screen4.this, FinalF.class));
+                    startActivity(new Intent(Screen4.this, Video.class));
                 if(result.get(0).equals("no"))
                     startActivity(new Intent(Screen4.this, Screen5.class));
             }
