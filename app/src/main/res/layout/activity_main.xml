@@ -4,30 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/emer"
     tools:context=".MainActivity">
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="80dp"
         android:layout_marginTop="90dp"
+        android:layout_marginEnd="68dp"
+        android:background="@drawable/button2"
         android:onClick="fire"
         android:text="Helper"
         android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.374" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="80dp"
         android:layout_marginTop="250dp"
+        android:layout_marginEnd="68dp"
+        android:background="@drawable/button2"
         android:onClick="Victim"
         android:text="Victim"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.338"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.598" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="44dp"
+        android:text="who are you?"
+        android:textAllCaps="true"
+        android:textSize="50sp"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
