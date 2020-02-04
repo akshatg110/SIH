@@ -11,7 +11,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="50dp"
         android:gravity="center_horizontal"
-        android:text="Criticality 2"
+        android:text="@string/criticality_2"
         android:textSize="30dp" />
 
     <TextView
@@ -20,7 +20,7 @@
         android:layout_marginBottom="540dp"
         android:layout_marginTop="200dp"
         android:gravity="center_horizontal"
-        android:text="Refer here for immediate help"
+        android:text="@string/refer_here_for_immediate_help"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

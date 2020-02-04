@@ -12,7 +12,7 @@
         android:layout_alignParentTop="true"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Search Any Hospital" />
+        android:text="@string/search_any_hospital" />
 
     <Button
         android:id="@+id/B_search"
@@ -21,7 +21,7 @@
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/TF_location"
         android:onClick="onClick"
-        android:text="Search"
+        android:text="@string/search"
         android:textSize="10dp"/>
 
 
@@ -46,6 +46,6 @@
         android:onClick="onClick"
         android:background="@drawable/button2"
         android:textSize="20sp"
-        android:hint="Search Nearby Hospitals" />
+        android:hint="@string/search_nearby_hospitals" />
 
 </RelativeLayout>

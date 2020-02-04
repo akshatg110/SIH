@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SIH</string>
     <string name="refer_here_for_immediate_help">Refer here for immediate help</string>
@@ -17,6 +18,4 @@
     <string name="does_the_person_experience_severe_pain">Does the person experience severe pain?</string>
     <string name="can_the_person_talk">Can The Person Talk?</string>
     <string name="is_patient_disoriented">Is Patient Disoriented?</string>
-    <string name="change_language">Change Language</string>
-
 </resources>
