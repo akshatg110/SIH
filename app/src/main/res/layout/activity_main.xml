@@ -21,9 +21,10 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.374" />
+        app:layout_constraintVertical_bias="0.24" />
 
     <Button
         android:layout_width="300dp"
@@ -37,20 +38,24 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.598" />
+        app:layout_constraintVertical_bias="0.239" />
 
     <Button
         android:layout_width="160dp"
         android:layout_height="60dp"
         android:layout_marginTop="628dp"
-        android:text="@string/change_language"
+        android:layout_marginBottom="20dp"
         android:onClick="changelang"
+        android:text="@string/change_language"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/who"
@@ -69,5 +74,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
+<Button
+    android:layout_width="200dp"
+    android:layout_height="100dp"
+    android:text="BlueTooth"
+    android:onClick="bt"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
