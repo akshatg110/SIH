@@ -14,6 +14,6 @@ public class FinalF extends AppCompatActivity {
         setContentView(R.layout.activity_final_f);
     }
     public void navigate(View v){
-        startActivity(new Intent(FinalF.this,MapsActivity.class));
+        startActivity(new Intent(FinalF.this,maps.class));
     }
 }
