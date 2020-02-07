@@ -23,7 +23,7 @@ public class Screen6 extends AppCompatActivity {
         startActivity(new Intent(Screen6.this,FinalF2.class));
     }
     public void no6(View view){
-        startActivity(new Intent(Screen6.this,FinalF2.class));
+        startActivity(new Intent(Screen6.this,heartrate.class));
     }
     public void speak(View v) {
         if (v.getId() == R.id.spk)
@@ -53,7 +53,7 @@ public class Screen6 extends AppCompatActivity {
                 if(result.get(0).equals("yes"))
                     startActivity(new Intent(Screen6.this, FinalF2.class));
                 if(result.get(0).equals("no"))
-                    startActivity(new Intent(Screen6.this, FinalF2.class));
+                    startActivity(new Intent(Screen6.this, heartrate.class));
             }
                 break;
         }

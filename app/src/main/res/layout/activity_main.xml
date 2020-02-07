@@ -27,6 +27,7 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <Button
+        android:id="@+id/button14"
         android:layout_width="300dp"
         android:layout_height="80dp"
         android:layout_marginStart="72dp"
@@ -34,7 +35,7 @@
         android:layout_marginEnd="68dp"
         android:background="@drawable/button2"
         android:onClick="Victim"
-        android:text="Victim"
+        android:text="General Citizen"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,19 +43,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.239" />
-
-    <Button
-        android:layout_width="160dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="628dp"
-        android:layout_marginBottom="20dp"
-        android:onClick="changelang"
-        android:text="@string/change_language"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 
     <TextView
@@ -74,9 +62,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-<Button
-    android:layout_width="200dp"
-    android:layout_height="100dp"
-    android:text="BlueTooth"
-    android:onClick="bt"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:onClick="bt"
+        android:text="BlueTooth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
 </androidx.constraintlayout.widget.ConstraintLayout>
