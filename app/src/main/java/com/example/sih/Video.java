@@ -10,7 +10,7 @@ import android.widget.VideoView;
 
 public class Video extends AppCompatActivity {
     public void navigate(View view){
-        startActivity(new Intent(Video.this,MapsActivity.class));
+        startActivity(new Intent(Video.this,maps.class));
     }
     private VideoView videoView;
     @Override
