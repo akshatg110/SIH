@@ -13,6 +13,7 @@
         android:layout_marginTop="50dp"
         android:gravity="center_horizontal"
         android:text="@string/criticality_1"
+        android:textAllCaps="true"
         android:textSize="30dp" />
 
     <TextView
@@ -23,6 +24,7 @@
         android:gravity="center_horizontal"
         android:text="@string/refer_here_for_immediate_help"
         android:textSize="30dp"
+        android:textAllCaps="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
