@@ -18,4 +18,7 @@
     <string name="does_the_person_experience_severe_pain">क्या व्यक्ति को गंभीर दर्द का अनुभव होता है?</string>
     <string name="can_the_person_talk">क्या व्यक्ति बात कर सकता है?</string>
     <string name="is_patient_disoriented">रोगी विकेंद्रित है?</string>
+    <string name="change_language">भाषा बदलो</string>
+    <string name="medical_staff">मेडिकल स्टाफ</string>
+    <string name="general_citizen">सामान्य नागरिक</string>
 </resources>

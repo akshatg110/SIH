@@ -18,4 +18,7 @@
     <string name="does_the_person_experience_severe_pain">Does the person experience severe pain?</string>
     <string name="can_the_person_talk">Can The Person Talk?</string>
     <string name="is_patient_disoriented">Is Patient Disoriented?</string>
+    <string name="change_language">Change Language</string>
+    <string name="medical_staff">MEDICAL STAFF</string>
+    <string name="general_citizen">General Citizen</string>
 </resources>

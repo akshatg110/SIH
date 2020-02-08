@@ -16,6 +16,7 @@ import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,12 +28,13 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
     int l=1;
     TextView id;
-
+        Button bt1,bt2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+bt1=(Button)findViewById(R.id.buttons);
+bt2=(Button)findViewById(R.id.buttons1);
         id=(TextView)findViewById(R.id.who);
         SharedPreferences sharedPreferences=getSharedPreferences("savelang",MODE_PRIVATE);
         l=sharedPreferences.getInt("getLang",2);
@@ -47,9 +49,13 @@ public class MainActivity extends AppCompatActivity {
        // Toast.makeText(this, ""+l, Toast.LENGTH_SHORT).show();
         if(l==2){
             id.setText("who are you ?");
+            bt1.setText("MEDICAL STAFF");
+            bt2.setText("General Citizen");
         setLang("en");}
         if(l==1){
             id.setText("तुम कौन हो?");
+            bt1.setText("मेडिकल स्टाफ");
+            bt2.setText("सामान्य नागरिक");
             setLang("hi");}
 
     }
@@ -64,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this,Tsunami.class));
     }
 
-    public void Victim(View view) {startActivity(new Intent(MainActivity.this,Victim.class));
+    public void Victim(View view) {startActivity(new Intent(MainActivity.this,GeneralCitizen.class));
     }
     public void setLang(String langCode){
         Resources res=getResources();
@@ -73,10 +79,7 @@ public class MainActivity extends AppCompatActivity {
         conf.setLocale(new Locale(langCode.toLowerCase()));
         res.updateConfiguration(conf,dm);
     }
-    public void changelang(View v){
-        startActivity(new Intent(MainActivity.this,Language.class));
-        finish();
-    }
+
     public void saveData(){
         l=getIntent().getExtras().getInt("lan");
         SharedPreferences sharedPreferences=getSharedPreferences("savelang", Context.MODE_PRIVATE);

@@ -10,7 +10,7 @@
         android:layout_width="170dp"
         android:layout_height="70dp"
         android:onClick="hindi"
-        android:text="Hindi"
+        android:text="हिंदी"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

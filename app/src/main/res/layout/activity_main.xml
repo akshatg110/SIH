@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/buttons"
         android:layout_width="300dp"
         android:layout_height="80dp"
         android:layout_marginStart="72dp"
@@ -16,7 +16,7 @@
         android:layout_marginEnd="68dp"
         android:background="@drawable/button2"
         android:onClick="fire"
-        android:text="MEDICAL STAFF"
+        android:text="@string/medical_staff"
         android:textFontWeight="@android:integer/config_mediumAnimTime"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,7 +27,7 @@
         app:layout_constraintVertical_bias="0.24" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/buttons1"
         android:layout_width="300dp"
         android:layout_height="80dp"
         android:layout_marginStart="72dp"
@@ -35,7 +35,7 @@
         android:layout_marginEnd="68dp"
         android:background="@drawable/button2"
         android:onClick="Victim"
-        android:text="General Citizen"
+        android:text="@string/general_citizen"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="46dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="44dp"
         android:layout_marginBottom="131dp"
         android:text="@string/who_are_you"
@@ -62,14 +62,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:onClick="bt"
-        android:text="BlueTooth"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

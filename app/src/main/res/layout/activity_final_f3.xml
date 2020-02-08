@@ -5,9 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".final_f3">
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="100dp"
-    android:text="Criticality 3"
-    android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Criticality 3"
+        android:textSize="30dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:onClick="navigate"
+        android:text="@string/navigate"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27" />
 </androidx.constraintlayout.widget.ConstraintLayout>
