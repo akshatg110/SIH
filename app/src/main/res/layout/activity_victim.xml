@@ -12,7 +12,7 @@
         android:layout_marginTop="56dp"
         android:gravity="center_horizontal"
         android:text="@string/is_it_life_threatening"
-        android:textSize="40sp"
+        android:textSize="30sp"
         android:textAllCaps="true"
         android:textColor="@android:color/black"
         app:layout_constraintTop_toTopOf="parent"

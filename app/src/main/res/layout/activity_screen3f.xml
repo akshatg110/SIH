@@ -11,8 +11,8 @@
         android:layout_height="100dp"
         android:layout_marginTop="56dp"
         android:gravity="center_horizontal"
-        android:text="@string/can_theperson_talk"
-        android:textSize="40dp"
+        android:text="@string/can_the_person_talk"
+        android:textSize="30dp"
         android:textAllCaps="true"
         android:textColor="@android:color/black"
         app:layout_constraintTop_toTopOf="parent" />
