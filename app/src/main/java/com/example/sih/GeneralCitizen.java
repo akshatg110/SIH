@@ -19,4 +19,7 @@ public class GeneralCitizen extends AppCompatActivity {
     public void breath(View v){
         startActivity(new Intent(GeneralCitizen.this,breathlessness.class));
     }
+    public void bled(View v){
+        startActivity(new Intent(GeneralCitizen.this,Video.class));
+    }
 }
