@@ -21,4 +21,16 @@
     <string name="change_language">भाषा बदलो</string>
     <string name="medical_staff">मेडिकल स्टाफ</string>
     <string name="general_citizen">सामान्य नागरिक</string>
+    <string name="if_the_patient_is_also_unconscious_give_cpr">यदि रोगी बेहोश है सीपीआर दे</string>
+    <string name="if_the_patient_is_also_breathless_give_cpr">यदि रोगी बेदम है सीपीआर दे</string>
+    <string name="bleeding">खून बह रहा</string>
+    <string name="unconciousness">असामंजस्य</string>
+    <string name="breathlessness">सांस फूलना</string>
+    <string name="fracture">भंग</string>
+    <string name="burns">जलाना</string>
+    <string name="drowning">डूबता हुआ</string>
+    <string name="heart_attack">दिल का दौरा</string>
+    <string name="poisoning">जहर</string>
+    <string name="what_is_the_patient_suffering_from">मरीज किस से पीड़ित है?</string>
+
 </resources>

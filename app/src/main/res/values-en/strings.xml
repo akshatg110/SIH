@@ -21,4 +21,15 @@
     <string name="change_language">Change Language</string>
     <string name="medical_staff">MEDICAL STAFF</string>
     <string name="general_citizen">General Citizen</string>
+    <string name="if_the_patient_is_also_unconscious_give_cpr">if the patient is also unconscious give cpr</string>
+    <string name="if_the_patient_is_also_breathless_give_cpr">if the patient is also breathless give cpr</string>
+    <string name="bleeding">Bleeding</string>
+    <string name="unconciousness">unconciousness</string>
+    <string name="breathlessness">breathlessness</string>
+    <string name="fracture">fracture</string>
+    <string name="burns">burns</string>
+    <string name="drowning">drowning</string>
+    <string name="heart_attack">heart attack</string>
+    <string name="poisoning">poisoning</string>
+    <string name="what_is_the_patient_suffering_from">What is the patient suffering from?</string>
 </resources>
