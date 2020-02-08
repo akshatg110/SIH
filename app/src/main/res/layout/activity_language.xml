@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/lang"
     tools:context=".Language">
 
     <Button
@@ -11,7 +12,8 @@
         android:layout_height="70dp"
         android:onClick="hindi"
         android:text="हिंदी"
-        android:textSize="20dp"
+        android:textSize="30dp"
+        android:background="@drawable/button2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -24,7 +26,8 @@
         android:layout_height="70dp"
         android:onClick="english"
         android:text="English"
-        android:textSize="20dp"
+        android:textSize="30dp"
+        android:background="@drawable/button2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
