@@ -32,5 +32,6 @@
     <string name="heart_attack">दिल का दौरा</string>
     <string name="poisoning">जहर</string>
     <string name="what_is_the_patient_suffering_from">मरीज किस से पीड़ित है?</string>
+    <string name="nearby">आस-पास के अस्पताल</string>
 
 </resources>

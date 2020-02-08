@@ -12,6 +12,6 @@
         android:id="@+id/getLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Search Nearby Hospitals" />
+        android:text="@string/search_nearby_hospitals" />
 
 </LinearLayout>

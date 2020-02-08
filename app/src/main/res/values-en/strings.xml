@@ -32,4 +32,5 @@
     <string name="heart_attack">heart attack</string>
     <string name="poisoning">poisoning</string>
     <string name="what_is_the_patient_suffering_from">What is the patient suffering from?</string>
+    <string name="nearby">Search Nearby Hospitals</string>
 </resources>
